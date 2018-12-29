@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project lab3-timer0_LED ****
+
+"D:\\TICCS\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../SRC/TIMER0.c'
+'Invoking: C2000 Compiler'
+"D:/TICCS/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" --silicon_version=28 -g --define="_DEBUG" --define="LARGE_MODEL" --include_path="F:/DSPABT/SHJK-ATV-DSP/lab3-timer0_LED/INCLUDE" --include_path="D:/TICCS/ccsv6/tools/compiler/c2000_6.2.5/include" --include_path="/packages/ti/xdais" --diag_warning=225 --large_memory_model --float_support=fpu32 --preproc_with_compile --preproc_dependency="SRC/TIMER0.pp"  "../SRC/TIMER0.c"
+"../SRC/TIMER0.c", line 298: warning: loop is not reachable
+"../SRC/TIMER0.c", line 177: warning: variable "RcharTemp" was declared but never referenced
+"../SRC/TIMER0.c", line 178: warning: variable "RChar" was declared but never referenced
+'Finished building: ../SRC/TIMER0.c'
+' '
+'Building target: TIMER0.out'
+'Invoking: C2000 Linker'
+"D:/TICCS/ccsv6/tools/compiler/c2000_6.2.5/bin/cl2000" --silicon_version=28 -g --define="_DEBUG" --define="LARGE_MODEL" --diag_warning=225 --large_memory_model --float_support=fpu32 -z -m"TIMER0.map" --stack_size=1000 --heap_size=1000 --warn_sections -i"D:/TICCS/ccsv6/tools/compiler/c2000_6.2.5/lib" -i"D:/TICCS/ccsv6/tools/compiler/c2000_6.2.5/include" -i"F:/DSPABT/SHJK-ATV-DSP/lab3-timer0_LED" --reread_libs --xml_link_info="TIMER0_linkInfo.xml" --rom_model -o "TIMER0.out"  "../CMD/DSP2833x_Headers_nonBIOS.cmd" "./TIMER0.obj" "./SHJK_UART.obj" "./SHJK_PID.obj" "./SHJK_DAC.obj" "./DSP2833x_usDelay.obj" "./DSP2833x_Xintf.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_Sci.obj" "./DSP2833x_PieVect.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_DefaultIsr.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_Adc.obj" "./DSP2833x_ADC_cal.obj" "../CMD/F28335.cmd" -l"rts2800_fpu32.lib" 
+<Linking>
+'Finished building target: TIMER0.out'
+' '
+
+**** Build Finished ****
